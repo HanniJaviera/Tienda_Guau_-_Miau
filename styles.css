@@ -1,0 +1,37 @@
+.titulo{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn_registrar{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 80px 80px;
+    border: 2px solid #FFDB58;
+    background: #FFD1DC;
+    border-radius: 5px;
+    
+}
+
+.btn_login{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 80px 70px;
+    border: 2px solid #FFD1DC;
+    background: #FFDB58;
+    border-radius: 5px;
+    
+}
+
+    #formularioRegistro {
+    display: none; /* Inicialmente oculto */
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 1000;
+  }
+
+  

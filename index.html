@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="icon" href="assets\iconopestaña.png">
+    <title>Guau & Miau</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
 </head>
 <body>
-    <h1>Hola</h1>
+    <img src="assets\banner.png" class="img-fluid w-25" alt="banner">
+    <h1 class="titulo">¡Bienvenidos!&#128054&#128049</h1>
+    <button onclick="hacerClickRegistrar()" id="hacerClickRegistrar" class="btn_registrar">&#128049Registrar&#128049</button>
+
+    <div id="formularioRegistro">
+  <h2 >Formulario de Registro</h2>
+  <form>
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    </div>
+    <button type="submit">Registrarse</button>
+    <button type="button" onclick="ocultarFormulario()">Cerrar</button>
+  </form>
+</div>
+    <button onclick="hacerClickIniciarSesion()" class="btn_login">&#128054Iniciar Sesión!&#128054 </button>
 </body>
 </html>
